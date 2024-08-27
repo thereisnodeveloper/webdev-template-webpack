@@ -14,8 +14,8 @@
     "node": true
   },
   "rules": {
-    "handle-callback-err": "error",
-    "n/exports-style": ["error", "module.exports"],
+    "n/handle-callback-err": "error", 
+    // "handle-callback-err": "error",
 			"unicorn/better-regex": "warn",
       "write-good-comments/write-good-comments": ["warn",
       {"whitelist": ["validate"]}]

@@ -1,17 +1,6 @@
+/* #region required */
 body {
   color: rgb(0, 59, 38);
   font-weight: 900;
 }
-
-form input:invalid {
-    outline: 3px dotted red;
-
-}
-
-.validClassName {
-  color: blue;
-}
-
-.invalid-class-name {
-  color: red;
-}
+/* #endregion */
