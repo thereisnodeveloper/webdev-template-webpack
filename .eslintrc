@@ -18,6 +18,10 @@
     // "handle-callback-err": "error",
 			"unicorn/better-regex": "warn",
       "write-good-comments/write-good-comments": ["warn",
-      {"whitelist": ["validate"]}]
+      {"whitelist": ["validate"]}],
+      "sonarjs/public-static-readonly" : "off",
+      "sonarjs/todo-tag" : "off",
+      "unicorn/prefer-top-level-await": "off",
+      "prefer-arrow-callback": "off"
   }
 }
