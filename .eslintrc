@@ -22,6 +22,7 @@
       "sonarjs/public-static-readonly" : "off",
       "sonarjs/todo-tag" : "off",
       "unicorn/prefer-top-level-await": "off",
-      "prefer-arrow-callback": "off"
+      "prefer-arrow-callback": "off",
+      "unicorn/no-array-for-each": "off"
   }
 }
