@@ -9,7 +9,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "webpack --watch",
-    "start": "webpack serve --open",
+    "start": "nodemon --watch webpack.config.js ./node_modules/.bin/webpack-dev-server --open", 
     "build": "webpack"
   },
   "keywords": [],
