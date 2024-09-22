@@ -1,29 +1,36 @@
 {
   "plugins": ["sonarjs", "css-modules", "html", "write-good-comments"],
-  "extends": ["airbnb-base", "plugin:n/recommended", "plugin:sonarjs/recommended-legacy", "plugin:unicorn/recommended",    "plugin:depend/recommended",    "plugin:css-modules/recommended"],
+  "extends": [
+    "airbnb-base",
+    "plugin:n/recommended",
+    "plugin:sonarjs/recommended-legacy",
+    "plugin:unicorn/recommended",
+    "plugin:depend/recommended",
+    "plugin:css-modules/recommended",
+  ],
 
-// files are handled by loadContent()
+  // files are handled by loadContent()
 
   "parserOptions": {
     "ecmaVersion": "latest",
-    "sourceType": "module"
+    "sourceType": "module",
   },
   "env": {
     "es2022": true,
     "browser": true,
-    "node": true
+    "node": true,
   },
   "rules": {
-    "n/handle-callback-err": "error", 
+    "n/handle-callback-err": "error",
     // "handle-callback-err": "error",
-			"unicorn/better-regex": "warn",
-      "write-good-comments/write-good-comments": ["warn",
-      {"whitelist": ["validate"]}],
-      "sonarjs/public-static-readonly" : "off",
-      "sonarjs/todo-tag" : "off",
-      "unicorn/prefer-top-level-await": "off",
-      "prefer-arrow-callback": "off",
-      "unicorn/no-array-for-each": "off",
-	"implicit-arrow-linebreak": "off"
-  }
+    "unicorn/better-regex": "warn",
+    "write-good-comments/write-good-comments": ["warn", { "whitelist": ["validate"] }],
+    "sonarjs/public-static-readonly": "off",
+    "sonarjs/todo-tag": "off",
+    "unicorn/prefer-top-level-await": "off",
+    "prefer-arrow-callback": "off",
+    "unicorn/no-array-for-each": "off",
+    "indent": ["error", 2, { "ignoreComments": true }],
+    "implicit-arrow-linebreak": "off",
+  },
 }
