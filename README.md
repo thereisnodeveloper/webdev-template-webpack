@@ -9,13 +9,12 @@
 * Type checking & type acquisition
 * Uses ESNext, modules enabled
 
-#### typesync
+#### type definitions
 
-- Automatically acquires type definitions for npm packages
-- Auto-run typesync using `npm run i`
+- `npx typedi `Automatically installs packages + their type definitions
+- `npx ts-typie` checks for missing type definitions)
 
-webpack split config (dev vs. prod)
-
+### webpack split config (dev vs. prod)
 
 ### Jest
 
