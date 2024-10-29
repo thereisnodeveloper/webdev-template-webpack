@@ -15,3 +15,8 @@
 - Auto-run typesync using `npm run i`
 
 webpack split config (dev vs. prod)
+
+
+### Jest
+
+- auto run test on save using `npm run watch`

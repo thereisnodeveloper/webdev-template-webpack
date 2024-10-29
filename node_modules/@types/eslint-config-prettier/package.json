@@ -1,0 +1,25 @@
+{
+    "name": "@types/eslint-config-prettier",
+    "version": "6.11.3",
+    "description": "TypeScript definitions for eslint-config-prettier",
+    "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/eslint-config-prettier",
+    "license": "MIT",
+    "contributors": [
+        {
+            "name": "Josh Goldberg",
+            "githubUsername": "JoshuaKGoldberg",
+            "url": "https://github.com/JoshuaKGoldberg"
+        }
+    ],
+    "main": "",
+    "types": "index.d.ts",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory": "types/eslint-config-prettier"
+    },
+    "scripts": {},
+    "dependencies": {},
+    "typesPublisherContentHash": "1f1a8cd47c4a044708f109f775ce9ba6769a27128ecff21b87f50646ee9db459",
+    "typeScriptVersion": "4.5"
+}
