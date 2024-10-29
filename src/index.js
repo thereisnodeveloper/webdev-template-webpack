@@ -7,6 +7,7 @@ const testElement = document.createElement('div');
 // #endregion
 
 
+
 // DOM elements
 const domInputs = document.querySelectorAll('input');
 /** @type {Array.<HTMLInputElement>} */
