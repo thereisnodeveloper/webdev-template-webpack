@@ -19,3 +19,6 @@
 ### Jest
 
 - auto run test on save using `npm run watch`
+- made to work with ES6 Modules using Babel (babel.config.cjs, jest.config.cjs)
+- made to work with webpack (mock stylesheet and files)
+- made to work with browser using `jest-environment-jsdom`

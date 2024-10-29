@@ -6,8 +6,6 @@ import './style.css';
 const testElement = document.createElement('div');
 // #endregion
 
-
-
 // DOM elements
 const domInputs = document.querySelectorAll('input');
 /** @type {Array.<HTMLInputElement>} */
@@ -19,3 +17,8 @@ const [
   zip = document.querySelector('#zip'),
   form = document.querySelector('form'),
 ] = [];
+
+
+export default function capitalize() {
+  
+}
