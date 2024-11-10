@@ -1,13 +1,23 @@
-const path = require('path');
+const path = require('node:path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
+const generateHtmlPlugin = (filenameWithoutExtension) => new HtmlWebpackPlugin({
+  filename: `${filenameWithoutExtension}.html`,
+  template: `./src/${filenameWithoutExtension}.html`,
+
+});
+
+const populateHtmlPlugins = (pagesArray) => {
+  const resultingPluginsArray = [];
+  pagesArray.forEach((page) =>
+    resultingPluginsArray.push(generateHtmlPlugin(page)));
+  return resultingPluginsArray;
+};
+
+const pages = populateHtmlPlugins(['index']);
 
 module.exports = {
-  plugins: [
-    new HtmlWebpackPlugin({
-      template: './src/index.html',
-    }),
-  ],
+  plugins: pages,
   output: {
     filename: 'main.js',
     path: path.resolve(__dirname, 'dist'),
