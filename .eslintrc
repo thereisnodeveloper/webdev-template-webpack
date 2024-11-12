@@ -19,6 +19,7 @@
     "es2022": true,
     "browser": true,
     "node": true,
+"jest": true
   },
   "rules": {
     "n/handle-callback-err": "error",
